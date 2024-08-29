@@ -1,0 +1,244 @@
+{
+  "menu": {
+    "Snacks": [
+      {
+        "name": "Chicken OR Beef OR Fish Pie",
+        "price": 2.0,
+        "currency": "£",
+        "description": "Savory minced chicken or meat or fish filling with potatoes and carrots baked in crispy dough."
+      },
+      {
+        "name": "Puff Puff (A.K.A Energy buns)",
+        "price": 2.0,
+        "currency": "£",
+        "description": "Deep fried sweet dough."
+      },
+      {
+        "name": "Kilishi",
+        "price": 2.0,
+        "currency": "£",
+        "description": "Crispy beef air dried and basted in chili spices"
+      },
+      {
+        "name": "Peppered Puff Puff",
+        "price": 2.0,
+        "currency": "£",
+        "description": "Deep fried sweet pepper dough."
+      },
+      {
+        "name": "Vege Pie",
+        "price": 2.0,
+        "currency": "£",
+        "description": "Potatoes and carrots filling baked in crispy dough."
+      }
+    ],
+    "Appetizers": [
+      {
+        "name": "Assorted Meat Suya",
+        "price": 6.0,
+        "currency": "£",
+        "description": "Grilled Chunks of assorted cow meats marinated in our chef's special spicy pepper sauce.",
+        "optional": { "name": "plantain", "price": 1.5, "currency": "£" }
+      },
+      {
+        "name": "Assorted Pepper Meat",
+        "price": 6.0,
+        "currency": "£",
+        "optional": { "name": "plantain", "price": 1.5, "currency": "£" }
+      },
+      {
+        "name": "Gizdodo",
+        "price": 5.0,
+        "currency": "£",
+        "description": "Plantain and gizzard marinated in our Chef's special sauce."
+      },
+      {
+        "name": "Chicken Suya",
+        "price": 6.0,
+        "currency": "£",
+        "description": "Roasted Chicken pieces marinated & served with suya spice.",
+        "optional": { "name": "plantain", "price": 1.5, "currency": "£" }
+      },
+      {
+        "name": "Goat Meat Pepper Soup",
+        "price": 6.0,
+        "currency": "£",
+        "description": "A hot & spicy broth of fresh goat meat."
+      },
+      {
+        "name": "Roast Chicken Wings",
+        "price": 5.0,
+        "currency": "£",
+        "description": "Slowly roast chicken wings marinated with carefully selected spices."
+      },
+      {
+        "name": "Beef OR Lamb Suya",
+        "price": 5.0,
+        "currency": "£",
+        "description": "Sliced Beef OR Lamb pieces marinated and served with Suya spice."
+      },
+      {
+        "name": "CatFish Pepper Soup",
+        "price": 6.0,
+        "currency": "£",
+        "description": "A hot & spicy broth of fresh cat fish."
+      },
+      {
+        "name": "Assorted Meat Pepper Soup",
+        "price": 6.0,
+        "currency": "£",
+        "description": "A hot & spicy broth of fresh assorted cow meat."
+      },
+      {
+        "name": "Asun (Peppered Beef)",
+        "price": 5.0,
+        "currency": "£",
+        "description": "Grilled chunks of beef marinated in our Chef's special hot & spicy pepper sauce."
+      },
+      {
+        "name": "Chicken OR Beef Spring Roll",
+        "price": 5.0,
+        "currency": "£",
+        "description": "Hand rolled & filled with carefully selected vegetable mix"
+      },
+      { "name": "Veg Spring Rolls", "price": 5.0, "currency": "£" },
+      {
+        "name": "Lamb Chops",
+        "price": 5.0,
+        "currency": "£",
+        "description": "Grilled lamb ribs marinated in our chefs special sauce"
+      }
+    ],
+    "Noodle Dishes": [
+      {
+        "name": "Vege Noodles",
+        "price": 10.0,
+        "currency": "£",
+        "description": "Noodles with fresh green leaves stir fried in our chef's special sauce"
+      },
+      {
+        "name": "Special Stir Fried Noodles",
+        "price": 9.0,
+        "currency": "£",
+        "description": "Noodles with prawn, roast chicken and fresh vegetable mix stir fried in our chef's special sauce",
+        "optional": { "name": "prawns", "price": 1.5, "currency": "£" }
+      },
+      {
+        "name": "Pepper Soup Noodles",
+        "price": 11.0,
+        "currency": "£",
+        "description": "Noodles steamed in a fresh broth of hot and spicy pepper soup."
+      }
+    ],
+    "Sandwiches and Wrap": [
+      {
+        "name": "Tuna Melt Sandwich",
+        "price": 6.0,
+        "currency": "£",
+        "description": "A classic triple decker tuna bake sandwich, (All Our Sandwiches Are Served With Chips)",
+        "optional": { "name": "sausage", "price": 1.0, "currency": "£" }
+      },
+      {
+        "name": "Chicken Shawarma",
+        "price": 6.5,
+        "currency": "£",
+        "description": "Grilled chicken slices, fresh cabbage and our chef's special shawarma sauce all wrapped in pita bread.",
+        "optional": { "name": "sausage", "price": 1.0, "currency": "£" }
+      },
+      {
+        "name": "Club Sandwich",
+        "price": 6.0,
+        "currency": "£",
+        "description": "A classic triple decker sandwich featuring chicken pieces, egg and shredded fresh vegetables."
+      }
+    ],
+    "Meals Deals": [
+      {
+        "name": "Choice Grilled Fish",
+        "price": 20.0,
+        "currency": "£",
+        "description": "Whole fish marinated in our chef's special flavour filled pepper sauce served with a choice of one SIDE and hot or mild sauce."
+      },
+      {
+        "name": "Oil Beans",
+        "price": 12.0,
+        "currency": "£",
+        "description": "Honey beans cooked in a broth of our chef's special palm oil sauce served with plantain & tomato stew"
+      },
+      {
+        "name": "Ogbono",
+        "price": 10.0,
+        "currency": "£",
+        "description": "A special blend of African mango seeds sautéed in palm oil sauce, okra & pumpkin leaves, served with chopped beef, smoked turkey",
+        "optional": { "name": "staple", "price": null, "currency": "£" }
+      },
+      {
+        "name": "Tomato Stew",
+        "price": 11.0,
+        "currency": "£",
+        "description": "Chunk of beef and smoked turkey steamed in pureed tomato Paste accented with chili pepper served with white rice and plantain."
+      },
+      {
+        "name": "Ayamase",
+        "price": 13.0,
+        "currency": "£",
+        "description": "A.K.A Designer Stew; A spicy and flavourful sauce of green pepper with assorted cow meat served with white rice and plantain."
+      },
+      {
+        "name": "Boli",
+        "price": 9.0,
+        "currency": "£",
+        "description": "Roasted plantain pieces served with small spicy sweet pepper sauce with chunk of beef."
+      },
+      {
+        "name": "Vegetable Stew",
+        "price": 11.0,
+        "currency": "£",
+        "description": "A special mix of chopped green leaves sautéed in out chef's tomato suace.",
+        "optional": { "name": "staple", "price": null, "currency": "£" }
+      },
+      {
+        "name": "Roast Chicken/ Fried Beef/Fish",
+        "price": 9.5,
+        "currency": "£",
+        "description": "Grilled chicken smothered in our chef's special pepper sauce, salads and hot or mild sauce",
+        "optional": { "name": "rice", "price": null, "currency": "£" }
+      },
+      {
+        "name": "Egg sauce",
+        "price": 8.0,
+        "currency": "£",
+        "description": "Fresh Eggs with prawn Stir-fried in our Chef's Special sauce.",
+        "optional": { "name": "side", "price": null, "currency": "£" }
+      },
+      {
+        "name": "Egusi",
+        "price": 10.0,
+        "currency": "£",
+        "description": "A special blend of melon seeds sautéed in spicy palm oil sauce, pumpkin leaves & mixed pepper, served with chunks of beef, smoked turkey",
+        "optional": { "name": "staple", "price": null, "currency": "£" }
+      },
+      {
+        "name": "Garden Egg Stew",
+        "price": 11.0,
+        "currency": "£",
+        "description": "A smooth Puree of Garden egg seasoned with our Chef's selected flavourful spices and served with chunk of beef and smoked turkey",
+        "optional": { "name": "side", "price": null, "currency": "£" }
+      },
+      {
+        "name": "Okro",
+        "price": 12.0,
+        "currency": "£",
+        "description": "A special blend of okra served with Tomato Stew",
+        "optional": { "name": "staple", "price": null, "currency": "£" }
+      },
+      {
+        "name": "Vegetable Soup",
+        "price": 11.0,
+        "currency": "£",
+        "description": "A special mix of chopped green leaves sautéed in palm oil sauce and served with chopped beef and smoked turkey",
+        "optional": { "name": "staple", "price": null, "currency": "£" }
+      }
+    ]
+  }
+}

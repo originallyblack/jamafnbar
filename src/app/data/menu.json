@@ -1,0 +1,327 @@
+{
+  "menu": {
+    "Appetizers": [
+      {
+        "name": "Assorted Meat Suya",
+        "price": "6.00",
+        "description": "Grilled Chunks of assorted cow meats marinated in our chef's special spicy pepper sauce."
+      },
+      { "name": "Assorted Pepper Meat", "price": "6.00" },
+      {
+        "name": "Gizdodo",
+        "price": "5.00",
+        "description": "Plantain and gizzard marinated in our Chef's special sauce."
+      },
+      {
+        "name": "Chicken Suya",
+        "price": "6.00",
+        "description": "Roasted Chicken pieces marinated & served with suya spice."
+      },
+      {
+        "name": "Goat Meat Pepper Soup",
+        "price": "6.00",
+        "description": "A hot & spicy broth of fresh goat meat."
+      },
+      {
+        "name": "Roast Chicken Wings",
+        "price": "5.00",
+        "description": "Slowly roast chicken wings marinated with carefully selected spices."
+      },
+      {
+        "name": "Beef OR Lamb Suya",
+        "price": "5.00",
+        "description": "Sliced Beef OR Lamb pieces marinated and served with Suya spice."
+      },
+      {
+        "name": "CatFish Pepper Soup",
+        "price": "6.00",
+        "description": "A hot & spicy broth of fresh cat fish."
+      },
+      {
+        "name": "Assorted Meat Pepper Soup",
+        "price": "6.00",
+        "description": "A hot & spicy broth of fresh assorted cow meat."
+      },
+      {
+        "name": "Asun (Peppered Beef)",
+        "price": "5.00",
+        "description": "Grilled chunks of beef marinated in our Chef's special hot & spicy pepper sauce."
+      },
+      {
+        "name": "Chicken OR Beef Spring Roll",
+        "price": "5.00",
+        "description": "Hand rolled & filled with carefully selected vegetable mix"
+      },
+      { "name": "Veg Spring Rolls", "price": "5.00" },
+      {
+        "name": "Lamb Chops",
+        "price": "5.00",
+        "description": "Grilled lamb ribs marinated in our chefs special sauce"
+      }
+    ],
+    "Staples": [
+      {
+        "name": "Amala",
+        "price": "4.25",
+        "description": "Plantain Flour mixed in boiling water."
+      },
+      {
+        "name": "Eba",
+        "price": "3.75",
+        "description": "Cassava flour mixed in boiling water."
+      },
+      {
+        "name": "Pounded Yam",
+        "price": "3.75",
+        "description": "Yam flour mixed in boiling water."
+      }
+    ],
+    "Stews": [
+      {
+        "name": "Ayamase Stew",
+        "price": "8.00",
+        "description": "AKA Designer Stew, A spicy and flavourful sauce of green peppers and assorted cow meats"
+      },
+      {
+        "name": "Garden Egg Stew",
+        "price": "8.50",
+        "description": "A smooth Puree of Garden egg seasoned with our Chef's selected flavorful spices and served with chunk of beef and smoked turkey."
+      },
+      {
+        "name": "Tomato Stew",
+        "price": "6.00",
+        "description": "Chopped beef and smoked turkey steamed our chef's Tomato based special sauce"
+      },
+      {
+        "name": "Sweet Pepper Stew",
+        "price": "5.00",
+        "description": "Chunk of beef sauteed in our Chef's special sweet pepper sauce"
+      },
+      {
+        "name": "Efo Riro",
+        "price": "8.50",
+        "description": "A special mix of chopped green leaves sautéed in out chef's tomato sauce served with Chopped beef and Smoked turkey"
+      }
+    ],
+    "Soups": [
+      {
+        "name": "Banga Soup",
+        "price": "8.00",
+        "description": "A special blend of oil palm seeds served with chopped beef and smoked turkey."
+      },
+      {
+        "name": "Egusi Soup",
+        "price": "8.00",
+        "description": "A special blend of melon seeds sautéed in our chef's oil palm sauce with pumpkin leaves and served with chopped beef and smoke turkey."
+      },
+      {
+        "name": "Ogbono Soup",
+        "price": "8.00",
+        "description": "A special blend of African mango seeds sauteed in our chef's oil palm sauce, okra and served with chopped beef and smoked turkey."
+      },
+      {
+        "name": "Okro",
+        "price": "6.00",
+        "description": "Fresh Grated Okra seasoned with our Chef's selected flavorful spices"
+      },
+      {
+        "name": "Vegetable Soup",
+        "price": "8.00",
+        "description": "A special mix of chopped green leaves sauteed in palm oil sauce and served with chopped beef and smoked turkey"
+      }
+    ],
+    "Noodles": [
+      {
+        "name": "Vege Noodles",
+        "price": "10.00",
+        "description": "Noodles with fresh green leaves stir fried in our chef's special sauce"
+      },
+      {
+        "name": "Special Stir Fried Noodles",
+        "price": "9.00",
+        "description": "Noodles with prawn, roast chicken and fresh vegetable mix stir fried in our chef's special sauce"
+      },
+      {
+        "name": "Pepper Soup Noodles",
+        "price": "11.00",
+        "description": "Noodles steamed in a fresh broth of hot and spicy pepper soup."
+      }
+    ],
+    "Sandwiches": [
+      {
+        "name": "Tuna Melt Sandwich",
+        "price": "6.00",
+        "description": "A classic triple decker tuna bake sandwich, (All Our Sandwiches Are Served With Chips)"
+      },
+      {
+        "name": "Chicken Shawarma",
+        "price": "6.50",
+        "description": "Grilled chicken slices, fresh cabbage and our chef's special shawarma sauce all wrapped in pita bread."
+      },
+      {
+        "name": "Club Sandwich",
+        "price": "6.00",
+        "description": "A classic triple decker sandwich featuring chicken pieces, egg and shredded fresh vegetables."
+      }
+    ],
+    "Rice": [
+      {
+        "name": "Jollof Rice",
+        "price": "4.00",
+        "description": "White Rice and carrots sauteed in Our chef's special Tomato sauce."
+      },
+      {
+        "name": "Fried Rice",
+        "price": "4.00",
+        "description": "White Rice Stir fried in our Chef's Special mixed vegetable sauce."
+      },
+      {
+        "name": "Coconut Rice",
+        "price": "4.00",
+        "description": "White Rice and carrots sauteed in Our chef's special coconut milk sauce."
+      },
+      {
+        "name": "White Rice",
+        "price": "4.00",
+        "description": "Easy cook rice boiled in salt water."
+      },
+      {
+        "name": "Banga Rice",
+        "price": "4.00",
+        "description": "White Rice and carrots sauteed in Our chef's special Oil Palm sauce."
+      },
+      {
+        "name": "Village Rice",
+        "price": "4.00",
+        "description": "White Rice sauteed in our chef's Palm oil sauce"
+      }
+    ],
+    "Meals": [
+      {
+        "name": "Choice Grilled Fish",
+        "price": "20.00",
+        "description": "Whole fish marinated in our chef's special flavour filled pepper sauce served with a choice of one SIDE and hot or mild sauce."
+      },
+      {
+        "name": "Oil Beans",
+        "price": "12.00",
+        "description": "Honey beans cooked in a broth of our chef's special palm oil sauce served with plantain & tomato stew"
+      },
+      {
+        "name": "Ogbono",
+        "price": "10.00",
+        "description": "A special blend of African mango seeds sautéed in palm oil sauce, okra & pumpkin leaves, served with chopped beef, smoked turkey"
+      },
+      {
+        "name": "Tomato Stew",
+        "price": "11.00",
+        "description": "Chunk of beef and smoked turkey steamed in pureed tomato Paste accented with chili pepper served with white rice and plantain."
+      },
+      {
+        "name": "Ayamase",
+        "price": "13.00",
+        "description": "A.K.A Designer Stew; A spicy and flavourful sauce of green pepper with assorted cow meat served with white rice and plantain."
+      },
+      {
+        "name": "Boli",
+        "price": "9.00",
+        "description": "Roasted plantain pieces served with small spicy sweet pepper sauce with chunk of beef."
+      },
+      {
+        "name": "Vegetable Stew",
+        "price": "11.00",
+        "description": "A special mix of chopped green leaves sautéed in out chef's tomato suace."
+      },
+      {
+        "name": "Roast Chicken/ Fried Beef/Fish",
+        "price": "9.50",
+        "description": "Grilled chicken smothered in our chef's special pepper sauce, salads and hot or mild sauce"
+      },
+      {
+        "name": "Egg sauce",
+        "price": "8.00",
+        "description": "Fresh Eggs with prawn Stir-fried in our Chef's Special sauce."
+      },
+      {
+        "name": "Egusi",
+        "price": "10.00",
+        "description": "A special blend of melon seeds sautéed in spicy palm oil sauce, pumpkin leaves & mixed pepper, served with chunks of beef, smoked turkey"
+      },
+      {
+        "name": "Garden Egg Stew",
+        "price": "11.00",
+        "description": "A smooth Puree of Garden egg seasoned with our Chef's selected flavourful spices and served with chunk of beef and smoked turkey"
+      },
+      {
+        "name": "Okro",
+        "price": "12.00",
+        "description": "A special blend of okra served with Tomato Stew"
+      },
+      {
+        "name": "Vegetable Soup",
+        "price": "11.00",
+        "description": "A special mix of chopped green leaves sautéed in palm oil sauce and served with chopped beef and smoked turkey"
+      }
+    ],
+    "Drinks": [
+      { "name": "Nigerian Fanta", "price": "2.00" },
+      { "name": "Coca Cola /Zero", "price": "2.00" },
+      { "name": "Zobo Drink", "price": "2.00" },
+      { "name": "Lavender & Strawberry Drink", "price": "2.00" },
+      { "name": "Still OR Sparkling Water", "price": "2.00" },
+      { "name": "Apple/ Cranberry / Pineapples", "price": "2.00" },
+      { "name": "Cranberry Juice", "price": "2.00" },
+      { "name": "J2O Orange OR Raspberry", "price": "2.00" },
+      { "name": "Malta Guinness", "price": "2.00" },
+      { "name": "Red Bull", "price": "2.00" },
+      { "name": "Super Malt", "price": "2.00" }
+    ],
+    "Desserts": [
+      {
+        "name": "Cake Of The Day",
+        "price": "4.00",
+        "description": "(Ask your waiter for the days special)"
+      },
+      {
+        "name": "Sponge and Custard",
+        "price": "4.00",
+        "description": "Classic sponge pudding served with warm velvety custard"
+      },
+      {
+        "name": "Ben & Jerry's Chocolate Fudge",
+        "price": "5.50",
+        "description": "Chocolate Ice Cream with Fudge Brownies"
+      },
+      {
+        "name": "B & J's Cookie Dough 500ml",
+        "price": "5.50",
+        "description": "Ben & Jerry's Cookie Dough 500ml Vanilla Ice Cream with Gobs of Chocolate Chip Cookie Dough"
+      }
+    ],
+    "Sides": [
+      { "name": "Boiled Plantain", "price": "3.50" },
+      { "name": "Boiled Potato", "price": "3.50" },
+      { "name": "Boiled Yam", "price": "3.50" },
+      { "name": "Fried plantain", "price": "3.50" },
+      { "name": "Yam Chips", "price": "3.50" },
+      { "name": "Potato Chips", "price": "3.50" },
+      { "name": "Sweet Potato Chips", "price": "3.50" },
+      { "name": "Groundnut", "price": "3.50" },
+      { "name": "House Hot Sauce", "price": "1.00" },
+      { "name": "House Mild Sauce", "price": "1.25" },
+      { "name": "Salad Bowl", "price": "1.25" },
+      { "name": "Oil Beans", "price": "4.00" },
+      { "name": "2 Roast Chicken Leg", "price": "6.00" },
+      { "name": "Moi Moi / Beans Cake", "price": "4.00" },
+      { "name": "Spicy Turkey", "price": "5.00" },
+      { "name": "Roasted corn", "price": "4.00" },
+      { "name": "Fried Hake Fish", "price": "5.00" },
+      { "name": "Fried Beef", "price": "5.00" }
+    ],
+    "Single": [
+      { "name": "Boiled/Fried Egg", "price": "4.00" },
+      { "name": "Boli (Roasted Plantain)", "price": "6.00" },
+      { "name": "Egg Sauce", "price": "5.00" }
+    ]
+  }
+}
