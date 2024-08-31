@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <AppProvider>
-        <body className={inter.className}>
+        <body className={`${inter.className} overflow-x-hidden`}>
           <Content>{children}</Content>
         </body>
       </AppProvider>
