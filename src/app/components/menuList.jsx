@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import MenuListContent from "./MenuListContent";
+import MenuListContent from "./menuListContent";
 
 const MenuList = () => {
   return (
