@@ -17,7 +17,7 @@ export default function Footer() {
         className='pt-20 pb-12  gap-16 items-start content-center py-8 px-4 mx-auto max-w-screen-xl md:grid md:grid-cols-2 lg:py-16 lg:px-6" '
       >
         <div className="">
-          <h2 className="text-3xl text-green-400 font-bold sm:text-5xl">
+          <h2 className="text-3xl text-accent font-bold sm:text-5xl">
             Subscribe
           </h2>
           <p className="text-base">
@@ -40,7 +40,7 @@ export default function Footer() {
             {/* <div className=" buttons py-5 mt-3 mb-3">
               <button
                 type="submit"
-                className=" justify-center text-xs h-9   px-8 mb-5  font-bold rounded-full text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-green-500 focus:ring-offset-green-200 active:bg-green-600 transition duration-150 ease-in-out"
+                className=" justify-center text-xs h-9   px-8 mb-5  font-bold rounded-full text-white bg-accent hover:bg-green-600 focus:outline-none focus:ring-accent focus:ring-offset-green-200 active:bg-green-600 transition duration-150 ease-in-out"
               >
                 Sign up Now!
               </button>
@@ -49,9 +49,7 @@ export default function Footer() {
         </div>
 
         <div className="md:pl-10">
-          <h2 className="text-3xl sm:text-5xl text-green-400 font-bold">
-            MANC
-          </h2>
+          <h2 className="text-3xl sm:text-5xl text-accent font-bold">MANC</h2>
           <p className="mt-3">
             {" "}
             Jamaf Food & Bar
@@ -68,7 +66,7 @@ export default function Footer() {
             <p>Phone</p>
             0161 834 5562 | 07759546969
           </span>
-          <div className="flex pt-3 justify-start text-center text-green-400">
+          <div className="flex pt-3 justify-start text-center text-accent">
             {/* <Link href={"https://www.facebook.com/"}>
               <FaFacebookF className="text-xl mr-5" />
             </Link>{" "} */}
@@ -87,7 +85,7 @@ export default function Footer() {
       >
         <div className="text-xs my-4 flex flex-col lg:flex px-2 gap-1 align-top items-start  justify-center">
           <Link href="#contactus">
-            <div className="flex md:px-5 content-center md:align-middle text-green-400">
+            <div className="flex md:px-5 content-center md:align-middle text-accent">
               <h2 className="text-xl text-center font-bold">JAMAF</h2>
               <span className="text-xl font-bold lg:grid p-1 lg:grid-cols-2 ">
                 |

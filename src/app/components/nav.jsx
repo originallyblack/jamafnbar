@@ -52,7 +52,7 @@ export default function Nav() {
           className=" h-[55px] w-[55px]  items-center flex justify-center text-2xl relative"
         >
           {navbar == false ? (
-            <FaBars className="hover:text-green-500" />
+            <FaBars className="hover:text-accent" />
           ) : (
             <FaWindowClose className="hover:text-red-500" />
           )}
@@ -69,7 +69,7 @@ export default function Nav() {
                 onClick={handleNav}
                 key={i}
                 href={url}
-                className="hover:text-green-400 focus:underline underline-offset-8 px-2 text-lg uppercase "
+                className="hover:text-accent focus:underline underline-offset-8 px-2 text-lg uppercase "
               >
                 {" "}
                 {text}
@@ -88,34 +88,34 @@ export default function Nav() {
               onClick={handleNav}
               href={reserveLink}
               target="_blank"
-              className=" hover:font-semibold px-4 py-2 mt-1 bg-green-500 rounded-md uppercase "
+              className=" hover:font-semibold px-4 py-2 mt-1 bg-accent rounded-md uppercase "
             >
               {" "}
               Reserve a table
             </Link>
             <div className="flex flex-row text-2xl p-4 gap-4 ">
-              <Link
+              {/* <Link
                 onClick={handleNav}
                 className=""
-                href={"https://www.facebook.com/hqmanchester"}
+                href={"https://www.facebook.com/"}
                 target="_blank"
               >
                 <FaFacebook />
-              </Link>
+              </Link> */}
               <Link
                 onClick={handleNav}
-                href={"https://www.instagram.com/hqmanchester/"}
+                href={"https://www.instagram.com/jamafnbar"}
                 target="_blank"
               >
                 <FaInstagram />
               </Link>
-              <Link
+              {/* <Link
                 onClick={handleNav}
-                href={"https://www.tiktok.com/@hqmanchester/"}
+                href={"https://www.tiktok.com/"}
                 target="_blank"
               >
                 <FaTiktok />
-              </Link>
+              </Link> */}
             </div>
             <span className="px-2 text-sm  gap-2 flex flex-col">
               {" "}

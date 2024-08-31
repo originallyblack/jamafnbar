@@ -12,7 +12,7 @@ export default function Card({ heading, info, cta }) {
             <Link
               href={cta.link}
               target="_blank"
-              className="bg-green-400 text-black font-medium w-52 text-center px-4 py-2"
+              className="bg-accent text-white font-medium w-52 text-center px-4 py-2"
             >
               {cta.text}
             </Link>
