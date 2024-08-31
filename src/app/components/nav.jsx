@@ -11,21 +11,26 @@ import {
 } from "react-icons/fa";
 export default function Nav() {
   const [navbar, setNavbar] = useState(false);
+
+  const number = 447759546969;
+  const waText = "Hi Jamaf, I'm interested in your menu";
+  const whatsAppUrl = `https://wa.me/${number}?text=${encodeURIComponent(
+    waText
+  )}`;
+
   const handleNav = () => {
     setNavbar(!navbar);
   };
-  const orderlink =
-    "https://www.pronto-food-online.com/ordering/restaurant/menu?restaurant_uid=175b2cdb-5680-4673-b025-59f548105410&glfa_cid=1694974390.1601939947&glfa_t=1601940069781";
-  const reserveLink =
-    "https://www.pronto-food-online.com/ordering/restaurant/menu/reservation?restaurant_uid=175b2cdb-5680-4673-b025-59f548105410&reservation=true&glfa_cid=1277109742.1603227119&glfa_t=1603227121089";
-  const menuItems = [
-    ["Hq Menu", "/menu"],
 
-    ["Call us", "tel:07759546969"],
-    ["About HQ", "/"],
+  const menuItems = [
+    ["Menu", "/menu"],
+
+    // ["Call us", `tel:${number}`],
+    ["About", "/"],
     // ['Order online', orderlink],
     // ['Reserve a table', reserveLink],
   ];
+
   return (
     <div className="">
       <div className=" overflow-hidden shadow-lg flex flex-row h-[70px] px-6 relative w-screen items-center justify-between ">
@@ -86,12 +91,11 @@ export default function Nav() {
             </Link> */}
             <Link
               onClick={handleNav}
-              href={reserveLink}
+              href={whatsAppUrl}
               target="_blank"
-              className=" hover:font-semibold px-4 py-2 mt-1 bg-accent rounded-md uppercase "
+              className="hover:font-semibold px-4 py-2 mt-1 bg-brand rounded-md uppercase "
             >
-              {" "}
-              Reserve a table
+              Contact Us
             </Link>
             <div className="flex flex-row text-2xl p-4 gap-4 ">
               {/* <Link
@@ -120,7 +124,7 @@ export default function Nav() {
             <span className="px-2 text-sm  gap-2 flex flex-col">
               {" "}
               <p className="font-light">Opening Hours</p> <p>Monday - Sunday</p>
-              <p>4pm - 11pm</p>
+              <p>9:30am - 6pm</p>
             </span>
           </div>
           <span
