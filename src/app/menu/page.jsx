@@ -1,6 +1,3 @@
-import React from "react";
-import Grid from "../components/grid";
-import Menubar from "../components/menubar";
 import MenuList from "../components/menuList";
 
 export default function page() {

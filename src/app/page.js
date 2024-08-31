@@ -2,7 +2,6 @@
 import CardsList from "./components/cardslist";
 import Hero from "./components/hero";
 import MenuList from "./components/menuList";
-import Pdfviewer from "./components/pdf";
 
 export default function Home() {
   return (

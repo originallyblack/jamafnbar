@@ -11,7 +11,7 @@ export default function Menuhero() {
     <div className="h-[400px] relative  bg-cover bg-origin-border flex flex-col justify-center items-center w-screen ">
       <Imagetext imgSrc={"/hero2.png"} />
       <div className="absolute flex flex-col justify-center items-center">
-        <h1 className="  font-bold text-4xl md:text-6xl  "> HQ Menu </h1>
+        <h1 className="  font-bold text-4xl md:text-6xl  "> Jamaf Menu </h1>
         <p className="p-3 text-lg"> Manchester </p>
         {/* <Link href={orderlink} target="_blank" className="bg-white text-black text-xl py-2 px-4 uppercase">
                     Order online
