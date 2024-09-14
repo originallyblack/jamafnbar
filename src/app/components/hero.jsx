@@ -8,7 +8,7 @@ export default function Hero() {
     "Please let us know if you have any food allergies or special dietary needs.";
   return (
     <div className="h-[600px] relative  bg-cover bg-origin-border flex flex-col justify-center items-center w-screen ">
-      <Imagetext imgSrc={"/heroimage.jpeg"} />
+      <Imagetext imgSrc={"/jamafnbar_bar_drinks.jpg"} />
       <div className="absolute flex flex-col justify-center items-center">
         <div className="pb-2  text-center">
           <h1 className="  font-bold text-5xl md:text-6xl  ">
