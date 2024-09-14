@@ -4,16 +4,17 @@ import Link from "next/link";
 import React, { useState } from "react";
 import {
   FaInstagram,
-  FaTiktok,
-  FaFacebook,
   FaBars,
   FaWindowClose,
 } from "react-icons/fa";
+import siteContent from "../data/siteContent";
+
 export default function Nav() {
   const [navbar, setNavbar] = useState(false);
+  const { nav } = siteContent;
 
   const number = 447934057775;
-  const waText = "Hi Jamaf, I'm interested in your menu";
+  const waText = nav.whatsAppText;
   const whatsAppUrl = `https://wa.me/${number}?text=${encodeURIComponent(
     waText
   )}`;
@@ -22,14 +23,7 @@ export default function Nav() {
     setNavbar(!navbar);
   };
 
-  const menuItems = [
-    ["Menu", "/menu"],
-
-    // ["Call us", `tel:${number}`],
-    ["About", "/"],
-    // ['Order online', orderlink],
-    // ['Reserve a table', reserveLink],
-  ];
+  const menuItems = nav.menuItems;
 
   return (
     <div className="">

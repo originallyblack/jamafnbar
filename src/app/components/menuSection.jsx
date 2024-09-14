@@ -26,8 +26,8 @@ const MenuSection = ({ title, items, description, price }) => (
               {item.medium
                 ? `M: £${item.medium} L: £${item.large}`
                 : item.price
-                ? `£${item.price}`
-                : ""}
+                  ? `£${item.price}`
+                  : ""}
               {item.note && ` (${item.note})`}
               {item.perPortion && " (per portion)"}
             </span>
