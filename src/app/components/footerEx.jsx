@@ -64,7 +64,7 @@ export default function Footer() {
           </p>
           <span className="mt-3">
             <p>Phone</p>
-            0161 834 5562 | 07759546969
+            07934057775
           </span>
           <div className="flex pt-3 justify-start text-center text-accent">
             {/* <Link href={"https://www.facebook.com/"}>
@@ -94,7 +94,7 @@ export default function Footer() {
             </div>
           </Link>
           <p className=""> Jamaf Food & Bar © 2024 </p>
-          <span className=""> WhatsApp : 07759546969 </span>
+          <span className=""> WhatsApp : 07934057775 </span>
           <Link href={"https://zabbu.org/"} className="">
             {" "}
             Developed By Zabbu Marketing{" "}

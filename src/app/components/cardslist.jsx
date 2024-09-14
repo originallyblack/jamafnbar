@@ -6,7 +6,7 @@ const cards = [
     info: "Plan ahead and get your Jamaican feast to-go, from Jamaf to skip the queue.",
     cta: {
       text: "ORDER COLLECT",
-      link: "tel:01618345562",
+      link: "tel: 07934057775",
     },
   },
   {
@@ -22,7 +22,7 @@ const cards = [
     info: "Find your local Jamaf and grab a seat at the bar or a cozy table.",
     cta: {
       text: "RESERVE A TABLE",
-      link: "tel:01618345562",
+      link: "tel: 07934057775",
     },
   },
 ];

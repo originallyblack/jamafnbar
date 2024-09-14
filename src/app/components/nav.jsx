@@ -12,7 +12,7 @@ import {
 export default function Nav() {
   const [navbar, setNavbar] = useState(false);
 
-  const number = 447759546969;
+  const number = 447934057775;
   const waText = "Hi Jamaf, I'm interested in your menu";
   const whatsAppUrl = `https://wa.me/${number}?text=${encodeURIComponent(
     waText
