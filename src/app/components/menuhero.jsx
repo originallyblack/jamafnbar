@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Imagetext from "./imagewithtext";
+import Image from "next/image";
 
 export default function Menuhero() {
   const orderlink =
@@ -9,7 +10,8 @@ export default function Menuhero() {
     "Please let us know if you have any food allergies or special dietary needs.";
   return (
     <div className="h-[400px] relative  bg-cover bg-origin-border flex flex-col justify-center items-center w-screen ">
-      <Imagetext imgSrc={"/hero2.png"} />
+      <Imagetext imgSrc={"/menuhero.jpeg"} />
+  
       <div className="absolute flex flex-col justify-center items-center">
         <h1 className="  font-bold text-4xl md:text-6xl  "> Jamaf Menu </h1>
         <p className="p-3 text-lg"> Manchester </p>

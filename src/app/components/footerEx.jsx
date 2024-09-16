@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import siteContent from "../data/siteContent";
+import Imagetext from "./imagewithtext";
 
 export default function Footer() {
   const { footer } = siteContent;
@@ -13,18 +14,18 @@ export default function Footer() {
   };
 
   return (
-    <div className="footer px-5 mb-6 ">
+    <div className="footer px-5  ">
       <div
         id="footer-main"
-        className='pt-20 pb-12  gap-16 items-start content-center py-8 px-4 mx-auto max-w-screen-xl md:grid md:grid-cols-2 lg:py-16 lg:px-6" '
-      >
+        className='pt-20 pb-12 relative gap-16   items-start content-center py-8 px-4 mx-auto max-w-screen-xl md:grid md:grid-cols-2 lg:py-16 lg:px-6" '
+      ><Imagetext imgSrc={"/jamafnbar_bar_drinks.jpg"} className="opacity-80"/>
         <div className="">
           <h2 className="text-3xl text-accent font-bold sm:text-5xl">
             {footer.subscribeTitle}
           </h2>
           <p className="text-base">{footer.subscribeText}</p>
           <form className="flex flex-col mb-5 " onSubmit={handleSubmit}>
-            <label className=" pt-3 text-xs">Your work email</label>
+            <label className=" pt-3 text-xs">Your Email</label>
             <input
               id="email"
               name="email"
@@ -38,9 +39,9 @@ export default function Footer() {
             />
           </form>
         </div>
-
+        
         <div className="md:pl-10">
-          <h2 className="text-3xl sm:text-5xl text-accent font-bold">MANC</h2>
+          <h2 className="text-3xl sm:text-5xl text-accent font-bold">Church Street</h2>
           <p className="mt-3">
             {footer.address.name}
             <br />
@@ -62,12 +63,14 @@ export default function Footer() {
             </Link>{" "}
           </div>
         </div>
+
+
       </div>
       <div
         id="footer-bottom"
-        className="border-t-2 lg:flex text-gray-500 lg:justify-center lg:text-center"
+        className="border-t-2 w-screen lg:flex text-black bg-brand h-full lg:text-center p-4"
       >
-        <div className="text-xs my-4 flex flex-col lg:flex px-2 gap-1 align-top items-start  justify-center">
+        <div className="text-xs mt-4 flex flex-col lg:flex px-2 gap-1 align-top items-start  justify-center">
           <Link href="#contactus">
             <div className="flex md:px-5 content-center md:align-middle text-accent">
               <h2 className="text-xl text-center font-bold">JAMAF</h2>
@@ -87,7 +90,7 @@ export default function Footer() {
           </Link>
 
           <Link href="https://www.originally.black">
-            <h2 className="text-xs uppercase pt-2  text-white  ">
+            <h2 className="text-sm uppercase pt-2 font-medium text-highlight  ">
               {footer.originallyBlack}
             </h2>
           </Link>

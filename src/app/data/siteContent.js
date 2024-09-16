@@ -2,7 +2,7 @@ const siteContent = {
     nav: {
         menuItems: [
             ["Menu", "/menu"],
-            ["About", "/"],
+            // ["About", "/"],
         ],
         whatsAppText: "Hi Jamaf, I'm interested in your menu",
     },
@@ -34,7 +34,7 @@ const siteContent = {
                 heading: "Order for Collect",
                 info: "Plan ahead and get your Jamaican feast to-go, from Jamaf to skip the queue.",
                 cta: {
-                    text: "ORDER COLLECT",
+                    text: "CALL US",
                     link: "tel:07934057775",
                 },
             },

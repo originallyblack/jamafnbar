@@ -35,8 +35,8 @@ const MenuListContent = () => {
               key={tab}
               onClick={() => handleTabClick(tab)}
               className={`font-medium px-4 py-2 transition-colors rounded-sm whitespace-nowrap ${activeTab === tab
-                  ? "bg-brand text-white"
-                  : " text-white hover:bg-brand"
+                  ? "bg-brand text-highlight"
+                  : "  hover:bg-brand"
                 }`}
             >
               {menuData[tab].title}

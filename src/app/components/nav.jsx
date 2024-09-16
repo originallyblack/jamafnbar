@@ -27,7 +27,7 @@ export default function Nav() {
 
   return (
     <div className="">
-      <div className=" overflow-hidden shadow-lg flex flex-row h-[70px] px-6 relative w-screen items-center justify-between ">
+      <div className=" overflow-hidden shadow-lg flex bg-brand flex-row h-[70px] px-6 relative w-screen items-center justify-between ">
         <Link href={"/"} className=" h-[55px] w-[55px] relative">
           <Image
             src="/jamaf_logo.png"
@@ -48,10 +48,10 @@ export default function Nav() {
         <div></div>
         <div
           onClick={handleNav}
-          className=" h-[55px] w-[55px]  items-center flex justify-center text-2xl relative"
+          className=" h-[55px] w-[55px]  items-center  flex justify-center text-2xl relative"
         >
           {navbar == false ? (
-            <FaBars className="hover:text-accent" />
+            <FaBars className="hover:text-accent bg-highlight p-1 text-accent" />
           ) : (
             <FaWindowClose className="hover:text-red-500" />
           )}
@@ -60,7 +60,7 @@ export default function Nav() {
       {navbar && (
         <div
           id="menu"
-          className=" absolute top-[72px]  rounded-md bg-black  w-screen shadow-sm flex max-w-[660px] h-[460px] flex-col items-start z-20"
+          className=" absolute top-[72px]  rounded-md bg-highlight  w-screen shadow-sm flex max-w-[660px] h-[460px] flex-col items-start z-20"
         >
           <div className="p-4 mt-4  flex flex-col gap-3 font-bold justify-center ">
             {menuItems.map(([text, url], i) => (
@@ -68,7 +68,7 @@ export default function Nav() {
                 onClick={handleNav}
                 key={i}
                 href={url}
-                className="hover:text-accent focus:underline underline-offset-8 px-2 text-lg uppercase "
+                className="hover:text-red-500 text-accent  focus:underline underline-offset-8 px-2 text-lg uppercase "
               >
                 {" "}
                 {text}
@@ -87,7 +87,7 @@ export default function Nav() {
               onClick={handleNav}
               href={whatsAppUrl}
               target="_blank"
-              className="hover:font-semibold px-4 py-2 mt-1 bg-brand rounded-md uppercase "
+              className="hover:font-semibold px-4 py-2 mt-1 hover:text-red-500 bg-brand text-highlight rounded-md uppercase "
             >
               Contact Us
             </Link>

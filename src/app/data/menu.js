@@ -26,14 +26,14 @@ const menuData = {
     ],
   },
   extra: {
-    title: "Extra",
+    title: "Extras",
     items: [
       { name: "Jerk Chicken", price: 6, perPortion: true },
       { name: "Fried Chicken", price: 4, perPortion: true },
     ],
   },
   deal: {
-    title: "Deal",
+    title: "Deals",
     items: ["1 Patty", "1 Drink (Can)"],
     price: 4,
   },
