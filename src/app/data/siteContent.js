@@ -21,7 +21,7 @@ const siteContent = {
             city: "Manchester,",
             postcode: "M4 1PE",
         },
-        phone: "07934057775",
+        phone: "07366675726",
         copyright: "Jamaf Food & Bar © 2024",
         developerLink: "https://zabbu.org/",
         developerText: "Developed By Zabbu Marketing",
@@ -35,7 +35,7 @@ const siteContent = {
                 info: "Plan ahead and get your Jamaican feast to-go, from Jamaf to skip the queue.",
                 cta: {
                     text: "CALL US",
-                    link: "tel:07934057775",
+                    link: "tel:07366675726",
                 },
             },
             {
@@ -43,7 +43,7 @@ const siteContent = {
                 info: "We sometimes change our delivery areas based on demand - check if we're delivering to you.",
                 cta: {
                     text: "ORDER DELIVERY",
-                    link: "tel:07934057775",
+                    link: "tel:07366675726",
                 },
             },
             {
@@ -51,7 +51,7 @@ const siteContent = {
                 info: "Find your local Jamaf and grab a seat at the bar or a cozy table.",
                 cta: {
                     text: "RESERVE A TABLE",
-                    link: "tel:07934057775",
+                    link: "tel:07366675726",
                 },
             },
         ],

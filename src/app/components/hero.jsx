@@ -15,13 +15,13 @@ export default function Hero() {
         <Image src="/jamaf_logo.png" alt="jamaffoods" fill  style={{ objectFit: "cover" }}/>
       </div>
         <div className="pb-2  text-center">
-          <h1 className="  font-bold text-5xl md:text-6xl  ">
+          <h1 className="  font-bold text-5xl md:text-6xl text-highlight dark:text-gray-200 ">
             {hero.title}
           </h1>
-          <p className="p-3 text-lg">{hero.subtitle}</p>
+          <p className="p-3 text-lg text-highlight dark:text-gray-200">{hero.subtitle}</p>
         </div>
       </div>
-      <p className=" text-xs px-5 font-bold shadow-sm absolute bottom-4">
+      <p className=" bg-highlight text-xs px-5 font-bold shadow-sm absolute text-brand dark:text-gray-200 bottom-4">
         {hero.allergyNotice}
       </p>
     </div>

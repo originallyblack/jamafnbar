@@ -9,7 +9,7 @@ export default function Imagetext({ imgSrc }) {
                 src={imgSrc}
                 fill
                 sizes="100vw"
-                style={{ objectFit: "cover", 'z-index' : '-10',"opacity": "0.8" }}
+                style={{ objectFit: "cover", 'zIndex' : '-10',"opacity": "0.8" }}
                 alt="Picture of the author"
             />
         </>

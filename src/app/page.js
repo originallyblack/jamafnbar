@@ -10,11 +10,11 @@ export default function Home() {
       <Hero />
 
       <div className="mt-4 py-4 md:flex-row flex flex-col-reverse justify-center items-center" >
-        <div><h2 className="text-6xl font-bold text-center my-10">Our Menu</h2>
+        <div><h2 className="text-6xl font-bold text-center my-10 text-highlight dark:text-gray-200">Our Menu</h2>
         <MenuList />
         </div>
         <video className="p-4" width="380px" height="720px" preload="auto" poster={"/jamaf_logo.png"}  controls >
-                <source src="/welcome.mp4" />
+                <source src="/welcome.MOV" />
                 videoPlayer</video>
       </div>
       <CardsList />     

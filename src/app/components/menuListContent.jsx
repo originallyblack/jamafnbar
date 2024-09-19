@@ -34,7 +34,7 @@ const MenuListContent = () => {
             <button
               key={tab}
               onClick={() => handleTabClick(tab)}
-              className={`font-medium px-4 py-2 transition-colors rounded-sm whitespace-nowrap ${activeTab === tab
+              className={`font-medium px-4 py-2 transition-colors rounded-sm whitespace-nowrap text-highlight dark:text-gray-200 ${activeTab === tab
                   ? "bg-brand text-highlight"
                   : "  hover:bg-brand"
                 }`}
