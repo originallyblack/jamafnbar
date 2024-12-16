@@ -24,7 +24,7 @@ const siteContent = {
         phone: "07366675726",
         copyright: "Jamaf Food & Bar © 2024",
         developerLink: "https://zabbu.org/",
-        developerText: "Developed By Zabbu Marketing",
+        developerText: "Developed By Originally.Black",
         privacyPolicy: "Privacy Policy",
         originallyBlack: "www.Originally.Black",
     },

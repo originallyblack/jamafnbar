@@ -13,7 +13,7 @@ export default function Nav() {
   const [navbar, setNavbar] = useState(false);
   const { nav } = siteContent;
 
-  const number = 447934057775;
+  const number = 447366675726;
   const waText = nav.whatsAppText;
   const whatsAppUrl = `https://wa.me/${number}?text=${encodeURIComponent(
     waText
@@ -117,8 +117,8 @@ export default function Nav() {
             </div>
             <span className="px-2 text-sm  gap-2 flex flex-col">
               {" "}
-              <p className="font-light">Opening Hours</p> <p>Monday - Sunday</p>
-              <p>9:30am - 6pm</p>
+              <p className="font-light">Opening Hours</p> <p>Wednesday - Saturday</p>
+              <p>12pm - 6pm</p>
             </span>
           </div>
           <span
