@@ -9,7 +9,7 @@ const menuData = {
       { name: "Oxtail", medium: 12.5, large: 14 },
       { name: "Callaloo & Saltfish", medium: 11, large: 12.5 },
       { name: "Ackee & Saltfish", medium: 11, large: 12.5 },
-      { name: "Soup of the Day", medium: 4.50, large: 6.5 },
+      { name: "Soup of the Day", medium: 4.5, large: 6.5 },
     ],
   },
   sides: {
