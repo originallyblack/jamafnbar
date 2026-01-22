@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <div className="h-[600px] relative  bg-cover bg-origin-border flex flex-col justify-center items-center w-screen ">
-      <Imagetext imgSrc={"/menuhero.jpeg"} />
+      <Imagetext imgSrc={"/menuhero.jpg"} />
 
       <div className="absolute flex flex-col justify-center items-center">
       <div className=" relative h-40 w-40">
